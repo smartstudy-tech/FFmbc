@@ -1,6 +1,15 @@
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YZXVPDXN68FDG)
 
+# Install for Apple m1
+```
+cd ~
+git clone https://github.com/smartstudy-tech/FFmbc.git
+./configure --arch=arm --enable-gpl --disable-asm
+make
+sudo make install
+```
+
 # What you can do with FFmbc #
 
 - Import your files in Final Cut Pro, AVID Media Composer, Adobe Premiere
